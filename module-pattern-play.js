@@ -3,13 +3,13 @@ var app = app || {};
 $j = jQuery.noConflict();
 //$j(document).ready(app.onInit());
 //app.onInit();
-app.elobby = function () {
+app.random = function () {
 
 	var hasWidget = true;
-	var atwoneDocType = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">';
+	var tinymceDocType = '<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">';
 	var debug;
 	
-	/*------------------------------- ATDATA SCREEN FUNCTIONS -------------------------------*/
+	/*------------------------------- UTILS OBJ -------------------------------*/
 	var utils = {
 	
 		isNumber: function (value) {
